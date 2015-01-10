@@ -21,7 +21,7 @@ After Entry Widget Area,
 Sub Footer Widget Area, 
 Colorizer (change color scheme) in Customizer, 
 Tertiary Navigation Menu, 
-Mobile Responsive Navigation, 
+Responsive Mobile Menus, 
 Google Fonts
 
 ## Support
