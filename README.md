@@ -4,15 +4,15 @@ News/Magazine theme for the Genesis Framework
 
 ## Demo
 
-Demo link: http://bradpotter.com/themes/amazing-times
+Demo: http://bradpotter.com/themes/amazing-times
 
 ## GitHub
 
-Github project link: https://github.com/bradpotter/amazing-times
+Github project https://github.com/bradpotter/amazing-times
 
 ## Requirements
 
-WordPress 4.1 and The Genesis Framework link: http://studiopress.com
+WordPress 4.1 and The Genesis Framework http://studiopress.com
 
 ## Support
 
