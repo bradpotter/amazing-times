@@ -149,11 +149,6 @@ genesis_register_sidebar( array(
 	'description' => __( 'This is the homepage sidebar.', 'amazingtimes' ),
 ) );
 genesis_register_sidebar( array(
-	'id'          => 'home-hero-full',
-	'name'        => __( 'Home Hero', 'amazingtimes' ),
-	'description' => __( 'This is the hero section of the homepage.', 'amazingtimes' ),
-) );
-genesis_register_sidebar( array(
 	'id'          => 'home-featured-full',
 	'name'        => __( 'Home Featured', 'amazingtimes' ),
 	'description' => __( 'This is the featured section of the homepage.', 'amazingtimes' ),
