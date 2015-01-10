@@ -51,8 +51,17 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	- Pagination
 	- Comments
 - Sidebars
+- After Entry Widgets
+- Sub Footer Widgets
 - Footer Widgets
 - Site Footer
+- Dashicons
+- Home Page
+	- Home Hero
+	- Home Featured
+	- Home Top
+	- Home Middle
+	- Home Bottom
 - Media Queries
 	- Retina Display
 	- Max-width: 1199px
@@ -1961,7 +1970,6 @@ li.comment {
 .home-bottom p:last-child {
 	margin-bottom: 0;
 }
-
 
 .content-sidebar-sidebar .home-bottom .widget {
 	border-right: 0px;
