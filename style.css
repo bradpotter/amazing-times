@@ -564,22 +564,39 @@ th {
 
 .content-sidebar-sidebar .content {
 	border-right: 1px solid #eaeaea;
+	width: 581px;
+	margin-right: -1px;
 }
 
 .content-sidebar-sidebar .sidebar-primary {
 	border-right: 1px solid #eaeaea;
+	border-left: 1px solid #eaeaea;
 }
 
 .sidebar-sidebar-content .content {
 	border-left: 1px solid #eaeaea;
+	width: 581px;
+	margin-left: -1px;
 }
 
 .sidebar-sidebar-content .sidebar-primary {
 	border-left: 1px solid #eaeaea;
+	border-right: 1px solid #eaeaea;
 }
 
 .sidebar-content-sidebar .content {
 	border-left: 1px solid #eaeaea;
+	width: 582px;
+	border-right: 1px solid #eaeaea;
+	margin-left: -1px;
+	margin-right: -1px;
+}
+
+.sidebar-content-sidebar .sidebar-primary {
+	border-left: 1px solid #eaeaea;
+}
+
+.sidebar-content-sidebar .sidebar-secondary {
 	border-right: 1px solid #eaeaea;
 }
 
@@ -2015,10 +2032,13 @@ li.comment {
 		width: 680px;
 	}
 
-	.sidebar-content-sidebar .content,
+	.sidebar-content-sidebar .content {
+		width: 462px;
+	}
+	
 	.sidebar-sidebar-content .content,
 	.content-sidebar-sidebar .content {
-		width: 460px;
+		width: 461px;
 	}
 
 	.title-area {
@@ -2189,6 +2209,7 @@ li.comment {
 		margin-right: 0;
 	}
 	
+	
 	.content-sidebar .content {
 		width: 100%;
 	}
@@ -2197,14 +2218,20 @@ li.comment {
 		width: 100%;
 	}
 	
-	.content-sidebar .sidebar-primary {
-		border-left: none;
+	.content-sidebar .content,
+	.content-sidebar .sidebar-primary,
+	.sidebar-content .content,
+	.sidebar-content .sidebar-primary,
+	.content-sidebar-sidebar .content,
+	.content-sidebar-sidebar .sidebar-primary,
+	.sidebar-sidebar-content .content,
+	.sidebar-sidebar-content .sidebar-primary,
+	.sidebar-content-sidebar .content,
+	.sidebar-content-sidebar .sidebar-primary,
+	.sidebar-content-sidebar .sidebar-secondary {
+		border: none;
 	}
-	
-	.sidebar-content .sidebar-primary {
-		border-right: none;
-	}
-	
+		
 	.home-top .widget {
 		width: 50%;
 	}
@@ -2277,21 +2304,12 @@ li.comment {
 		padding: 40px;
 	}
 
-	.content-sidebar .content {
-		width: 100%;
-	}
 
-	.sidebar-content .content {
-		width: 100%;
-	}
-
-	.content-sidebar .sidebar-primary {
-		border-left: none;
-	}
 	
-	.sidebar-content .sidebar-primary {
-		border-right: none;
-	}
+
+	
+	
+	
 	
 	.home-top .widget {
 		width: 100%;
