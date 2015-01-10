@@ -19,6 +19,7 @@ WordPress 4.1 and The Genesis Framework http://studiopress.com
 Unique Primary Sidebar for Home Page, 
 After Entry Widget Area, 
 Sub Footer Widget Area, 
+Footer Widget Area,
 Colorizer (change color scheme) in Customizer, 
 Tertiary Navigation Menu, 
 Responsive Mobile Menus, 
