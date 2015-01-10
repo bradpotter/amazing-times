@@ -12,7 +12,7 @@ Github project link: https://github.com/bradpotter/amazing-times
 
 ## Requirements
 
-WordPress 4.1 and The Genesis Framework
+WordPress 4.1 and The Genesis Framework link: http://studiopress.com
 
 ## Support
 
