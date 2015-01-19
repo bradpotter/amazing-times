@@ -40,7 +40,7 @@ add_image_size( 'Slider-Large', 1120, 630, TRUE );
 add_image_size( 'Featured-Medium', 720, 405, TRUE );
 add_image_size( 'Featured-Small', 320, 180, TRUE );
 
-//* Reposition the Secondary Navigation Menu
+//* Reposition the Primary Navigation Menu
 remove_action( 'genesis_after_header', 'genesis_do_nav' );
 add_action( 'genesis_before_header', 'genesis_do_nav' );
 
